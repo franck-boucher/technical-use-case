@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#__next {
+  @apply h-full bg-teal-50;
+  -webkit-font-smoothing: antialiased;
+}
